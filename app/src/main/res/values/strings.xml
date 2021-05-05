@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">GuessTheAthlete</string>
+
+    <!--TEXTVIEWS THAT WILL NOT CHANGE -->
+    <string name="title_name">Guess The Athlete</string>
+    <string name="athlete_facts">Facts About The Athlete</string>
+
+    <!--FACTS ABOUT NEYMAR -->
+    <string name="facts_neymar">Nationality: Brazil \n Sport: Soccer \n Team: Paris Saint Germain \n Age: 27</string>
+
+    <!--FACTS ABOUT Lebron James -->
+    <string name="facts_lebron">Nationality: United States \n Sport: Basketball \n Team: Los Angeles Lakers \n Age: 35</string>
+
+    <!--FACTS ABOUT Lionel Messi -->
+    <string name="facts_messi">Nationality: Argentina \n Sport: Soccer \n Team: Barcelona \n Age: 32</string>
+
+    <!--FACTS ABOUT Donovan Mitchell -->
+    <string name="facts_kobe">Nationality: United States \n Sport: Basketball \n Team: Los Angeles Lakers \n Age: 41</string>
+
+   <string name="enter_show_results_button">CLICK ON "SHOW RESULTS" BUTTON TO SEE YOUR SCORE</string>
+
+
+    <!--ANSWER BUTTONS STRINGS -->
+    <string name="neymar_button">Neymar</string>
+    <string name="lebron_button">Lebron James</string>
+    <string name="messi_button">Lionel Messi</string>
+    <string name="kobe_button">Kobe Bryant</string>
+
+    <!--HINT AND NEXT BUTTONS -->
+    <string name="show_results_text">Show Results</string>
+    <string name="next_button">NEXT ATHLETE</string>
+
+
+    <!--STRINGS OF ATHLETES -->
+    <string name="next_athlete">NEXT ATHLETE</string>
+    <string name="kobe_bryant">Kobe Bryant</string>
+    <string name="lionel_messi">Lionel Messi</string>
+    <string name="lebron_james">Lebron James</string>
+    <string name="neymar">Neymar</string>
+
+    <!--CORRECT/INCORRECT TOASTS -->
+    <string name="correct_toast">RIGHT ANSWER!</string>
+    <string name="incorrect_toast">WRONG ANSWER!</string>
+
+    <string name="number_of_correct_answers">Number of correct answers: </string>
+
+    <!--ACTIVITY 2 STRINGS -->
+    <string name="score_number">Your score is: </string>
+    <string name="show_score_button">Show Score</string>
+    <string name="please_enter_your_name">Enter Your Name</string>
+    <string name="submit_your_name">Submit Your Name</string>
+    <string name="results_title">RESULTS</string>
+    <string name="your_name_is">Welcome: </string>
+    <string name="enter_something">Please Enter Your Name</string>
+    <string name="good_job">Good Job </string>
+    <string name="your_score_is">Your Score is: </string>
+
+</resources>

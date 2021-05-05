@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowPictureActivity"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/results_title"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="70dp"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/score_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding = "10dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="20sp"
+        tools:text="@string/score_number"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/please_enter_your_name"
+            android:inputType="text"
+            >
+        </EditText>
+
+        <Button
+            android:id="@+id/submit_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_your_name"
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="176dp"
+            android:src="@drawable/messi">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="176dp"
+            android:src="@drawable/ney">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/lebron">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="176dp"
+            android:src="@drawable/kobe"></ImageView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
